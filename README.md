@@ -32,3 +32,27 @@ maven package
 to start project
 mvn spring-boot:run
 
+Additional tips:
+
+For consume the service you can use Postman and send a request to:
+localhost:8080/Controller/processPlayers 
+
+DATA EXAMPLE
+[
+    {
+      "name": "Sub zero",
+      "type": "expert"
+    },
+    {
+      "name": "Scorpion",
+      "type": "novice"
+    },
+    {
+      "name": "Scorpion2",
+      "type": "novice"
+    },
+    {
+      "name": "Reptile",
+      "type": "meh"
+    }
+  ]
